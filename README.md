@@ -49,11 +49,14 @@ src/app/          pages and layouts (App Router): page.tsx is the home page
 src/app/globals.css   global styles and Tailwind
 public/           static files served from the site root
 vercel.json       pins the Vercel framework preset to Next.js
+.devcontainer/    Codespaces setup: Node 24, GitHub CLI, Claude Code
 ```
 
 ## New collaborators
 
 See [COLLABORATOR-SETUP.md](COLLABORATOR-SETUP.md). It's written so you can hand it to Claude Code and have it do the whole setup for you. You'll first need an invite to this repo from Pete.
+
+No local installs or admin rights needed: either use [Claude Code on the web](https://claude.ai/code), or open a GitHub Codespace (**Code → Codespaces → Create codespace on main**). The Codespace comes with Node, the GitHub CLI and Claude Code pre-installed.
 
 ## Secrets
 
